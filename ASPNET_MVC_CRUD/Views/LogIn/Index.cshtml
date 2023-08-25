@@ -1,0 +1,33 @@
+﻿@model ASPNET_MVC_CRUD.Models.LoginViewModel
+@{
+}
+<style>
+    body {
+        background-color: lightsteelblue; /* Because who needs a specific color when you can have them all? */
+    }
+    .btn-primary{
+        background-color: #279EFF;
+        margin-top: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border:hidden;
+    }
+
+</style>
+<div class="container" style="background-color: #0C356A; margin-top:40px; color: lightgray ;max-width: 400px; box-shadow:0 0 10px rgba(0, 0, 0, 0.3); padding-top: 20px; border-radius:10px">
+    <div class="row justify-content-center">
+        <div class="col-md-9" style="margin-bottom: 40px">
+            <h1 class="text-center">Log in</h1>
+            <form method="post" action="Home" class="mt-5">
+                <div class="mb-3">
+                    <label for="" class="form-label">Username</label>
+                    <input type="email" class="form-control" asp-for="Username" style="width: 90%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Password</label>
+                    <input type="password" class="form-control" asp-for="Password" style="width: 90% ;box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

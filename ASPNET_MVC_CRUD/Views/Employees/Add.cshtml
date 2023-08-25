@@ -1,0 +1,47 @@
+﻿@model ASPNET_MVC_CRUD.Models.AddEmployeeViewModel
+@{
+}
+<style>
+    body {
+        background-color: lightsteelblue; /* Because who needs a specific color when you can have them all? */
+    }
+
+    .btn-primary {
+        background-color: #279EFF;
+        margin-top: 10px;
+        border: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-danger {
+        margin-top: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+</style>
+<div class="container" style="margin-top:40px; color: darkblue ;max-width: 600px; padding-top: 30px; border-radius: 10px">
+    <div class="row justify-content-center">
+        <div class="col-md-9" style="margin-bottom: 40px">
+            <h1 class="text-center">Add User</h1>
+            <form method="post" action="Add" class="mt-5">
+                <div class="mb-3">
+                    <label for="" class="form-label">Name</label>
+                    <input type="text" class="form-control" asp-for="Name" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Contact Number</label>
+                    <input type="text" class="form-control" asp-for="Contact" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" class="form-control" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)" asp-for="Email">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-danger">Cancel</button>
+            </form>
+
+        </div>
+    </div>
+</div>

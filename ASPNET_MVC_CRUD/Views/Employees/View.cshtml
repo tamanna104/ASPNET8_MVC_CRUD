@@ -1,0 +1,58 @@
+﻿@model ASPNET_MVC_CRUD.Models.UpdateEmployeeViewModel
+@{
+}
+
+<style>
+    body {
+        background-color: lightsteelblue; /* Because who needs a specific color when you can have them all? */
+    }
+
+    .btn-primary {
+        background-color: #279EFF;
+        margin-top: 10px;
+        width: 80px;
+        height: 40px;
+        border: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-danger {
+        margin-top: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+</style>
+<div class="container" style="margin-top:40px; color: darkblue ;max-width: 700px; padding-top: 30px;">
+    <div class="row justify-content-center">
+        <div class="col-md-9" style="margin-bottom: 40px">
+            <h2 class="text-center">Edit User</h2>
+            <form method="post" action="View" class="mt-4">
+                <div class="mb-3">
+                    <label for="" class="form-label">Id</label>
+                    <input type="text" class="form-control" asp-for="Id" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Name</label>
+                    <input type="text" class="form-control" asp-for="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Contact Number</label>
+                    <input type="text" class="form-control" asp-for="Contact">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" class="form-control" asp-for="Email">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Edit</button>
+                <button type="submit" class="btn btn-danger"
+                        asp-action="Delete"
+                        asp-controller="Employees">
+                    Delete
+                </button>
+            </form>
+
+        </div>
+    </div>
+</div>
