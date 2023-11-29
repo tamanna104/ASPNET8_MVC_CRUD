@@ -3466,11 +3466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD.csproj",
+      "projectUniqueName": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET8_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD.csproj",
       "projectName": "ASPNET_MVC_CRUD",
-      "projectPath": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD.csproj",
+      "projectPath": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET8_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD.csproj",
       "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-      "outputPath": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD\\obj\\",
+      "outputPath": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET8_MVC_CRUD\\ASPNET_MVC_CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",

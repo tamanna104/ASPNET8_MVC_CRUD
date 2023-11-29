@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASPNET_MVC_CRUD")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1a9857d9c0083df6dc3952c6a2bddceb75d9eaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASPNET_MVC_CRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASPNET_MVC_CRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

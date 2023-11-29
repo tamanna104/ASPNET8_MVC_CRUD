@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZThG00igNhp6tsdOMVb3k1RfEZvt671/JucZq8BT8SxIkwJ5NayRZVoEcZRSHlp2PXrRHiZtnGHkq1KxMcUFGw==",
+  "dgSpecHash": "Lq6hW6t/CEUbVuybdqvST7CW56hj7rZ7/2EeMlfKL7HgmNHI5cM2dACsi02RysFBFo4/Pft/7GnfqM+BEc6Ovw==",
   "success": true,
-  "projectFilePath": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD.csproj",
+  "projectFilePath": "D:\\Work\\Study\\ASPNET6_MVC_CRUD\\ASPNET8_MVC_CRUD\\ASPNET_MVC_CRUD\\ASPNET_MVC_CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdul\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\abdul\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
